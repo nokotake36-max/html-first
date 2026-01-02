@@ -51,3 +51,26 @@ p {
   color: #555;
 }
 
+.nav {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #111;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(0,0,0,0.06);
+  font-size: 14px;
+}
+
+.nav a:hover {
+  background: rgba(0,0,0,0.12);
+}
+
+.nav a.active {
+  background: #111;
+  color: #fff;
+}
